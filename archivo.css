@@ -3,10 +3,10 @@ body {
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
-    color: white; 
+    color: #ffffff; /* Color oscuro para el texto */
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     height: 100vh; 
     display: flex;
     flex-direction: column; 
@@ -16,37 +16,79 @@ body {
 }
 
 nav {
-    background: rgba(212, 203, 203, 0.5); 
-    padding: 10px;
+    background: rgba(255, 255, 255, 0.85); /* Blanco translúcido */
+    padding: 15px;
     width: 100%; 
     text-align: center;
     position: absolute; 
     top: 0;
     left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-nav a{
-    color: white;
+nav a {
+    color: #d058ff; /* Color violeta para los enlaces */
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff399c; /* Color rosa para el hover */
 }
 
 main {
+    padding: 40px;
+    border-radius: 12px; 
+    max-width: 900px; 
+    margin-top: 120px; 
+    box-shadow: 0 6px 12px rgba(126, 123, 123, 0.15); /* Sombra más pronunciada */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Alineación de texto a la izquierda */
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.0em; 
+}
+
+.titulo {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ffffff; /* Color llamativo para el título */
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2); /* Sombra sutil para resaltar */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color:#615c5c; /* Gris oscuro para el texto */
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido para los párrafos */
     padding: 20px;
-    background: rgba(179, 174, 174, 0.5); 
-    border-radius: 8px; 
-    max-width: 1000px; 
-    margin-top: 100px; 
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 800px; /* Limita el ancho de los párrafos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-.boton {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background-color: #d058ff; 
-    color: white;
-    text-decoration: none;
-    border-radius: 5px; 
+.intro {
+    font-weight: bold;
 }
 
-.boton:hover {
-    background-color: #ff399c; 
+.carrera, .experiencia {
+    font-weight: bold;
+}
+
+.motivacion {
+    font-weight: bold;
+    color: #615c5c; /* Color rosa para resaltar */
+}
+
+.agradecimiento {
+    font-size: 1.3em; /* Tamaño de fuente mayor */
+    font-weight: bold;
+    color: #615c5c;  /* Color violeta para resaltar */
+    text-align: center;
 }
