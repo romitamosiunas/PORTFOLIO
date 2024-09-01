@@ -92,3 +92,20 @@ p {
     color: #615c5c;  /* Color violeta para resaltar */
     text-align: center;
 }
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d058ff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde por defecto */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1.1em; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de fuente */
+    text-align: center; /* Centrar el texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.boton:hover {
+    background-color: #ff399c; /* Color de fondo del botón al pasar el ratón */
+}
