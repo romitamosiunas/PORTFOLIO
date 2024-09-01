@@ -109,3 +109,21 @@ p {
 .boton:hover {
     background-color: #ff399c; /* Color de fondo del botón al pasar el ratón */
 }
+
+.contact-info {
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #d058ff; /* Color del enlace */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
